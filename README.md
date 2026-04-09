@@ -2,9 +2,10 @@
 simple data cleanser example using python to audit a CSV file
 
 ## Features
-- Detects missing values and duplicates
-- Cleans datasets automatically
-- Outputs audit report and cleaned data
+- Data validation (missing values, invalid dates, negative balances)
+- Automated data cleaning
+- Logging of processing steps and issues
+- Output reports for audit and traceability
 
 ## Why I built this
 This project reflects real-world experience working with large datasets, ETL processes, and data validation in enterprise environments.
