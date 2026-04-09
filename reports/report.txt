@@ -1,0 +1,1 @@
+{'rows': 50, 'duplicates': np.int64(1), 'missing_values': {'first_name': 0, 'last_name': 0, 'date_joined': 2, 'validated': 0, 'account_balance': 0}}
