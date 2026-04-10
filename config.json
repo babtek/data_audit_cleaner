@@ -1,0 +1,5 @@
+{
+  "input_file": "data/sample.csv",
+  "output_file": "reports/cleaned.csv",
+  "report_file": "reports/report.txt"
+}

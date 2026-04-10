@@ -1,19 +1,16 @@
-# data_audit_cleaner
-simple data cleanser example using python to audit a CSV file
+## ETL Pipeline Overview
+
+This project implements a simple ETL pipeline:
+
+- **Extract**: Reads raw CSV data
+- **Transform**: Validates and cleans data (duplicates, missing values, invalid dates)
+- **Load**: Outputs cleaned dataset and validation report
 
 ## Features
-- Data validation (missing values, invalid dates, negative balances)
-- Automated data cleaning
-- Logging of processing steps and issues
-- Output reports for audit and traceability
-
-## Why I built this
-This project reflects real-world experience working with large datasets, ETL processes, and data validation in enterprise environments.
-
-## Tech
-- Python
-- Pandas
+- Modular pipeline design
+- Config-driven execution
+- Logging for traceability
+- Data validation and cleaning
 
 ## Run
-pip install -r requirements.txt
 python src/main.py
