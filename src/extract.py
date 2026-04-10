@@ -1,9 +1,11 @@
-import pandas as pd
 import logging
-
+import pandas as pd
 
 def extract_data(file_path):
-    logging.info(f"Extracting data from {file_path}")
-    df = pd.read_csv(file_path)
-    logging.info(f"Extracted {len(df)} rows")
-    return df
+    try:
+        df = pd.read_csv(file_path)
+        logging.info(f"Extracted {len(df)} rows from {file_path}")
+        return df
+    except Exception as e:
+        logging.error(f"Failed to extract data: {e}")
+        raise
