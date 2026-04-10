@@ -1,5 +1,5 @@
 import pandas as pd
-from src.transform import validate_data, clean_data
+from transform import validate_data, clean_data
 
 def test_validate_data_detects_issues():
     data = {

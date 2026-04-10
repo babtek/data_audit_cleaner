@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import pytest
 
-from src.extract import extract_data
+from extract import extract_data
 
 
 def test_extract_data_success(tmp_path):
